@@ -1,0 +1,18 @@
+Source: inflect
+Section: python
+Priority: optional
+Maintainer: Kostas Papadimitriou <kpap@grnet.gr>
+Build-Depends: debhelper (>= 8), python-all (>= 2.5)
+Standards-Version: 3.9.2
+XS-Python-Version: >= 2.6
+Homepage: http://pypi.python.org/pypi/inflect
+Vcs-Git: git://github.com/pwdyson/inflect.py
+Vcs-Browser: https://github.com/pwdyson/inflect.py
+
+Package: python-inflect
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+XB-Python-Version: ${python:Versions}
+Description: Correctly generate plurals, singular nouns, ordinals, indefinite
+             articles; convert numbers to words.

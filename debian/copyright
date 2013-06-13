@@ -1,0 +1,9 @@
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
+Upstream-Name: inflect
+Upstream-Contact: Paul Dyson
+Source: https://github.com/pwdyson/inflect.py
+
+Files: *
+Copyright: Copyright (c) 2012, Paul Dyson
+Licence: GPL-3
+
